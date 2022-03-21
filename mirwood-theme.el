@@ -51,6 +51,7 @@
   (curryOrange       "#b57614")
 
   (jungleGreen       "#1d1f21")
+  (charlestonGreen   "#25282b")
   (mintGreen         "#b2ffbb")
   (laurelGreen       "#2e7330")
   (acidGreen         "#b8bb26")
@@ -91,7 +92,7 @@
   (shadow                              (:foreground silver))
   (vertical-border                     (:foreground almondBrown))
   (border                              (:background spaceBlue :foreground signalWhite))
-  (trailing-whitespace                 (:background pastelRed))
+  (trailing-whitespace                 (:background nil :foreground nil))
   (region                              (:background pineBlack))
   (escape-glyph                        (:background pistachioGreen))
   (minibuffer-prompt                   (:background raisinBlack :foreground acidGreen))
@@ -156,7 +157,7 @@
   (flycheck-fringe-error               (:foreground pastelRed))
 
   ;; org-mode
-  (org-block                           (:inherit 'shadow))
+  (org-block                           (:background charlestonGreen))
   (org-link                            (:foreground aeroBlue :bold t :underline t))
   (org-block-begin-line                (:inherit 'shadow :height 0.9))
   (org-block-end-line	               (:inherit 'org-block-begin-line))

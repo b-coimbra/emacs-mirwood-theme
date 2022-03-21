@@ -2,6 +2,8 @@
 
 A pleaseant theme with earthy colors, inspired by Gruvbox.
 
+[[https://i.imgur.com/V4i18Q4.jpg]]
+
 * Installation
 
   With [[https://github.com/raxod502/straight.el][straight.el]]:
@@ -10,4 +12,11 @@ A pleaseant theme with earthy colors, inspired by Gruvbox.
     (straight-use-package
      '(emacs-mirwood-theme :type git :host github
                            :repo "b-coimbra/emacs-mirwood-theme"))
+  #+end_src
+
+  With [[https://github.com/quelpa/quelpa-use-package][quelpa]]:
+
+  #+begin_src emacs-lisp
+    (use-package mirwood
+      :quelpa (mirwood :fetcher github :repo "b-coimbra/emacs-mirwood-theme"))
   #+end_src

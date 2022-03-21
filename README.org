@@ -1,0 +1,3 @@
+#+TITLE: Mirwood theme
+
+A pleaseant theme with earthy colors, inspired by Gruvbox.

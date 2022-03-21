@@ -1,3 +1,13 @@
 #+TITLE: Mirwood theme
 
 A pleaseant theme with earthy colors, inspired by Gruvbox.
+
+* Installation
+
+  With [[https://github.com/raxod502/straight.el][straight.el]]:
+
+  #+begin_src emacs-lisp
+    (straight-use-package
+     '(emacs-mirwood-theme :type git :host github
+                           :repo "b-coimbra/emacs-mirwood-theme"))
+  #+end_src

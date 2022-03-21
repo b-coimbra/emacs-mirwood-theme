@@ -1,3 +1,7 @@
+;;; package: --- A pleasant theme with earthy shades, inspired by Gruvbox.
+;;; Commentary: https://github.com/b-coimbra/emacs-mirwood-theme
+;;; Code:
+
 (require 'autothemer)
 
 (autothemer-deftheme
@@ -68,7 +72,7 @@
   (cursor                               (:background blondYellow))
   (error                                (:foreground pastelRed :bold t))
   (success                              (:foreground pistachioGreen))
-  (warning                              (:foreground tanYellow))
+  (warning                              (:foreground saffronOrange))
   (fringe                               (:background nil))
   (glyph-face                           (:background onyxGrey))
   (glyphless-char                       (:foreground onyxGrey))
@@ -195,4 +199,12 @@
 
   ))
 
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
 (provide-theme 'mirwood)
+;;; mirwood-theme.el ends here

@@ -190,7 +190,7 @@
   (js2-jsdoc-tag                       (:foreground cinereousBrown))
   (js2-jsdoc-type                      (:foreground grulloBrown))
   (js2-jsdoc-value                     (:foreground khakiBrown))
-  (js2-function-param                  (:foreground pistachioGreen :italic t))
+  (js2-function-param                  (:foreground morningBlue :italic t))
   (js2-function-call                   (:foreground morningBlue))
   (js2-instance-member                 (:foreground pumpkinOrange))
   (js2-private-member                  (:foreground curryOrange))
